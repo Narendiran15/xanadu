@@ -1,0 +1,372 @@
+
+
+<div class="container-fluid news-letter-bg">
+
+    <div class="container">
+
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 news-letter">
+
+            <h3>Sign up to our newsletter to get all updates and enjoy exclusive benefits
+            </h3>
+
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-7 col-sm-offset-1 col-xs-12 news-letter-form col-lg-offset-0">
+
+            <input type="text" class="news-letter-form-field" placeholder="Enter your email address">
+
+        </div>
+
+        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12 nlb">
+            <a href="#" class="myButton-header">SUBMIT</a>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="container-fluid footer-bg">
+    <div class="container">
+
+        <div class="col-lg-3 col-md-2 col-sm-3 hidden-xs">
+
+            <img src="images/footer-logo-12.svg" class="img-responsive">
+
+
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 footer-text">
+
+            <h3>Villas</h3>
+            <ul>
+
+                <li><a href="#">The Xanadu Cliffside</a></li>
+                <li><a href="#"> The Xanadu Birdsong</a></li>
+                <li> <a href="#">The Xanadu Meghadhootam</a></li>
+                <li> <a href="#">The Xanadu Birkenhead</a></li>
+                <li> <a href="#">The Xanadu Froghill</a></li>
+            </ul>
+
+
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 footer-text">
+
+            <h3>Social Media</h3>
+            <ul>
+
+                <li style="float:left; margin-right: 10px;"><a href="https://www.facebook.com/www.thexanadu.co" target="_blank"><img src="images/fb-09.svg" width="31" height="31"></a></li>
+                <li style="float:left; margin-right: 10px;"><a href="#" target="_blank"><img src="images/tripadvisor-01.svg" width="31" height="31"></a></li>
+                <li><a href="https://www.instagram.com/the.xanadu/" target="_blank"><img src="images/insta-11.svg" width="31" height="31"></a></li>
+         
+
+            </ul>
+
+
+        </div>
+
+
+
+        <div class="col-lg-3 col-md-3 hidden-sm col-xs-12 footer-enquiry">
+
+            <h3>Enquiry</h3>
+
+
+            <p>223 DBS House,<br> 31 A, Cathedral Garden Road, Nungambakkam<br> Chennai 600 034<br> +91 94424 13384<br> contact@thexanadu.co
+            </p>
+
+
+
+        </div>
+
+    </div>
+
+
+
+
+</div>
+<div class="container-fluid copyright-bg">
+    <div class="container">
+
+
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 footer">
+
+            <p>©2019 The Xanadu | Web Design & Development by FINGERPRINTS</p>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="container-fluid">
+
+    
+    <div class="hidden-lg hidden-md hidden-sm col-xs-12 floating-booknow">
+    
+                 <a href="booking.php" class="myButton-header">BOOK NOW</a>
+    
+    </div>
+
+
+</div>
+
+
+<link rel="stylesheet" type="text/css" href="css/lightpick.css">
+<link href="css/awselect.css" rel="stylesheet" />
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+<script type="text/javascript" src="js/awselect.js"></script>
+<script>
+    $(document).ready(function() {
+        $('select').awselect({
+
+
+            background: "#fff", //the dark blue background
+            active_background: "#fff", // the light blue background
+            placeholder_color: "#000", // the light blue placeholder color
+            placeholder_active_color: "#000", // the dark blue placeholder color
+            option_color: "#405463", // the option colors
+            vertical_padding: "15px", //top and bottom padding
+            horizontal_padding: "20px", // left and right padding,
+
+        })
+    });
+
+</script>
+
+<script src="js/lightpick.js"></script>
+<script>
+    var picker = new Lightpick({
+        field: document.getElementById('datepicker')
+    });
+
+</script>
+
+
+<script>
+    $(document).ready(function() {
+        $(window).on("scroll", function() {
+            if ($(window).scrollTop() >= 40) {
+                $(".navbar").addClass("compressed");
+                $(".navbar-brand").addClass("compressed");
+                $(".navbar-right").addClass("compressed");
+                $(".navbar-toggle").addClass("compressed");
+            } else {
+                $(".navbar").removeClass("compressed");
+                $(".navbar-brand").removeClass("compressed");
+                $(".navbar-right").removeClass("compressed");
+                $(".navbar-toggle").removeClass("compressed");
+            }
+        });
+    });
+
+</script>
+
+<script>
+    $(document).ready(function() {
+        $("#flip").click(function() {
+            $("#panel").slideToggle("slow");
+        });
+    });
+
+</script>
+
+<script>
+    $(document).ready(function() {
+        $("#flip-2").click(function() {
+            $("#panel-2").slideToggle("slow");
+        });
+    });
+
+</script>
+
+<script>
+    $(document).ready(function() {
+        $("#flip-3").click(function() {
+            $("#panel-3").slideToggle("slow");
+        });
+    });
+
+</script>
+
+<script src="js/featherlight.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/featherlight.gallery.js" type="text/javascript" charset="utf-8"></script>
+
+<script>
+    $(document).ready(function() {
+        $('.gallery').featherlightGallery({
+            gallery: {
+                fadeIn: 300,
+                fadeOut: 300
+            },
+            openSpeed: 300,
+            closeSpeed: 300
+        });
+
+    });
+
+</script>
+
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+
+        $("#testimonial-slider").owlCarousel({
+
+            items: 2,
+
+            itemsDesktop: [1000, 2],
+
+            itemsDesktopSmall: [979, 2],
+
+            itemsTablet: [768, 1],
+
+            pagination: true,
+
+            navigation: false,
+
+            slideSpeed: 1000,
+
+            singleItem: false,
+
+            navigationText: ["", ""],
+
+            autoPlay: true
+
+        });
+
+    });
+
+</script>
+
+<script>
+    $(".read-more").click(function() {
+        $(".content").slideToggle("slow");
+        var $this = $(this);
+        $this.toggleClass("open");
+
+        if ($this.hasClass("open")) {
+            $this.html("Read Less");
+        } else {
+            $this.html("Read more");
+        }
+    });
+
+</script>
+
+
+<script src="js/bootstrap.js"></script>
+  <script src="js/aos.js"></script>
+  <script>
+ AOS.init({
+  // Global settings:
+  disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+  startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+  initClassName: 'aos-init', // class applied after initialization
+  animatedClassName: 'aos-animate', // class applied on animation
+  useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+  disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+  debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+  throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+  
+
+  // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+  offset: 120, // offset (in px) from the original trigger point
+  delay: 0, // values from 0 to 3000, with step 50ms
+  duration: 400, // values from 0 to 3000, with step 50ms
+  easing: 'ease', // default easing for AOS animations
+  once: true, // whether animation should happen only once - while scrolling down
+  mirror: false, // whether elements should animate out while scrolling past them
+  anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+});
+  </script>
+<script src="js/faq.js"></script>
+
+
+
+
+<script>$(document).on('click', '.number-spinner button', function () {    
+	var btn = $(this),
+		oldValue = btn.closest('.number-spinner').find('input').val().trim(),
+		newVal = 0;
+	
+	if (btn.attr('data-dir') == 'up') {
+		newVal = parseInt(oldValue) + 1;
+	} else {
+		if (oldValue > 1) {
+			newVal = parseInt(oldValue) - 1;
+		} else {
+			newVal = 1;
+		}
+	}
+	btn.closest('.number-spinner').find('input').val(newVal);
+});</script>
+
+
+<script>
+! function($) {
+    "use strict";
+    var a = {
+        accordionOn: ["xs"]
+    };
+    $.fn.responsiveTabs = function(e) {
+        var t = $.extend({}, a, e),
+            s = "";
+        return $.each(t.accordionOn, function(a, e) {
+            s += " accordion-" + e
+        }), this.each(function() {
+            var a = $(this),
+                e = a.find("> li > a"),
+                t = $(e.first().attr("href")).parent(".tab-content"),
+                i = t.children(".tab-pane");
+            a.add(t).wrapAll('<div class="responsive-tabs-container" />');
+            var n = a.parent(".responsive-tabs-container");
+            n.addClass(s), e.each(function(a) {
+                var t = $(this),
+                    s = t.attr("href"),
+                    i = "",
+                    n = "",
+                    r = "";
+                t.parent("li").hasClass("active") && (i = " active"), 0 === a && (n = " first"), a === e.length - 1 && (r = " last"), t.clone(!1).addClass("accordion-link" + i + n + r).insertBefore(s)
+            });
+            var r = t.children(".accordion-link");
+            e.on("click", function(a) {
+                a.preventDefault();
+                var e = $(this),
+                    s = e.parent("li"),
+                    n = s.siblings("li"),
+                    c = e.attr("href"),
+                    l = t.children('a[href="' + c + '"]');
+                s.hasClass("active") || (s.addClass("active"), n.removeClass("active"), i.removeClass("active"), $(c).addClass("active"), r.removeClass("active"), l.addClass("active"))
+            }), r.on("click", function(t) {
+                t.preventDefault();
+                var s = $(this),
+                    n = s.attr("href"),
+                    c = a.find('li > a[href="' + n + '"]').parent("li");
+                s.hasClass("active") || (r.removeClass("active"), s.addClass("active"), i.removeClass("active"), $(n).addClass("active"), e.parent("li").removeClass("active"), c.addClass("active"))
+            })
+        })
+    }
+}(jQuery);
+
+
+$('.responsive-tabs').responsiveTabs({
+    								     accordionOn: ['xs', 'sm']
+									});
+
+
+</script>
+
+
+
+
+
+</body>
+
+</html>

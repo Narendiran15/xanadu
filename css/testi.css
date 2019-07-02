@@ -1,0 +1,116 @@
+.testimonial{
+
+            margin:0px 50px;
+
+            background-color: #fff;
+
+            color: #A58E38;
+
+            text-align: center;
+      
+        }
+
+.testimonial-content h3 {font-family: 'Arapey', serif;font-weight: bold;color: #000;font-size: 30px;}
+
+.testimonial-content p {font-family: 'Source Sans Pro', sans-serif;font-size:15px;color: #545454;line-height: 21px;}
+        .testimonial .testimonial-content{padding: 20px 10px 30px;/* border-top: 1px solid #1C743E; *//* border-left: 1px solid #1C743E; */position: relative;margin-bottom: 10px;font-size: 15px;line-height: 30px;text-align: left;background: #fbfbfb;}
+
+        .testimonial .testimonial-content:before{
+
+           
+
+            font-family: fontawesome;
+
+            float: left;
+
+            display: inline-block;
+
+            padding:0 15px 5px 0;
+
+            font-size: 30px;
+
+            text-align: center;
+
+            position:relative;
+
+            top: 12px;
+
+            left: 0px;
+
+        }
+
+        .testimonial .testimonial-content:after{
+
+           
+        }
+
+        .testimonial .testimonial-info{position: relative;text-align: left;}
+
+        .testimonial .testimonial-info:before{
+
+       
+
+        }
+
+        .testimonial .testimonial-info:after{
+
+           
+
+        }
+
+        .testimonial .pic{display: inline-block;/* width: auto; *//* height: 60px; *//* border-radius: 50%; */margin-right: 7px;}
+
+        .testimonial .pic img{/* width: 100%; *//* height: 100%; *//* border-radius: 50%; */}
+
+        .testimonial .testimonial-title{
+
+            display: inline-block;
+
+        }
+
+        .testimonial .testimonial-title a{
+
+            display: block;
+
+            color:#000;
+
+            font-size: 16px;
+
+         
+
+           text-align: left;
+
+            letter-spacing: 1px;
+            font-family: 'Source Sans Pro', sans-serif;
+
+        }
+
+
+
+        .owl-theme .owl-controls{
+
+            margin-top: 50px;
+
+            margin-left: 30px;
+
+        }
+
+        .owl-theme .owl-controls .owl-page span{
+
+            height:15px ;
+
+            width: 15px ;
+
+            background-color: #A58E38 ;
+
+            opacity: 0.8 ;
+
+            border-radius: 0 ;
+
+            transform:rotate(45deg) !important;
+
+        }
+
+        .owl-theme .owl-controls .owl-page.active span,
+
+        .owl-theme .owl-controls.clickable .owl-page:hover span{background-color: #5a5a5a;margin-top: 50px;}
