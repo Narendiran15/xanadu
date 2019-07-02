@@ -537,7 +537,7 @@
             <h3>1 Hour</h3>
             <p>TIME REQUIRED</p>
 
-asdadasdasdas
+
             <br>
         </div>
 
