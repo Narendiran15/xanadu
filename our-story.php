@@ -57,7 +57,7 @@ We have tried to create each villa as a place of beauty, luxury and contentment.
 
         <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12 heading choose-us-watermark" data-aos="fade-in"   data-aos-easing="ease-out-back" data-aos-duration="1000">
 
-            <h3>Who Choose Us</h3>
+            <h3>Why choose Us</h3>
             <p>The Xanadu is a chain of premium, fully serviced vacation rental villas. ‘Xanadu’ means a place of great beauty, luxury and contentment and that is what you will experience when you stay with us. <br><br> No two homes or rooms are similar and therein lies the charm of a vacation rental! Each of our handpicked villas are perfect getaways to spend ‘quality time’ with your loved ones… away from overcrowded holiday destinations and the boredom of hotels. Our tagline says it all – ‘Check in. Breathe out.’. </p>
 
             <hr style="width:100px; border:1px solid #c7c7c7;">
